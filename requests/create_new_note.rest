@@ -1,7 +1,8 @@
 POST http://localhost:3001/api/notes
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY3YzVkNDI1MjVmMjk2ZGE3N2IzYmI5ZSIsImlhdCI6MTc0MTAyODUyOX0.ICvc3hVN22suKldXAg5jrx15_WhmFbPfMwrC38qoyOE
 
 {
-    "content" : "lol",
+    "content" : "Single page apps using token Authorization",
     "important":true
 }
